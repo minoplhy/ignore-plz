@@ -1,0 +1,48 @@
+number = value
+print(number)
+@ output >>  number
+
+print(type(number))
+@ output >> type of number's value
+
+name = "Namesis"
+age = 33
+name_age = "{}: {}".format(name,age)
+print(name_age)
+@ output >> Nemesis: 33
+
+position = 100
+forward = position + 1
+print(forward)
+@ output >> 101
+backward = position - 1
+print(backward)
+@ output >> 99
+
+f_name = "Nemedis "
+l_name = "duck"
+print(f_name + l_name)
+@ output >> Nemedia duck
+
+position = 1
+end_position = 10
+
+is_end = position == end_position
+@        1 == 10
+print(is_end)
+@ output >> False
+
+is_halfway = position >= position / 2
+@            1 >= 10 / 2
+print(is_halfway)
+@ output >> False
+
+not_end = not is_end
+print(not_end)
+@ output = False
+
+score = 8
+is_over = score >= 10 and is_end ==True
+print(is_over); print(score)
+@ output = False
+@ output = 8
