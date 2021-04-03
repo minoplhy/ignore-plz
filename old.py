@@ -1,3 +1,5 @@
+# Variables
+
 # name = value
 
 player_posit = 10
@@ -35,6 +37,8 @@ age = 33
 name_age = "{}: {}".format(name,age)
 print(name_age)
 # + - * / % // ** =
+
+# Operators
 
 player_posit = 100
 # player_posit = 11
@@ -82,6 +86,9 @@ print(not_end)
 score = 8
 is_over = score >= 10 or is_end ==True
 print(is_over); print(score)
+
+# Collection
+
 
 # item = [5, True, "Speak"]
 
@@ -155,6 +162,8 @@ print("l" in actions)
 
 key = "u"
 
+# Control Flow
+
 if key == "r":
   print("move right")
 elif key == "l":
@@ -176,3 +185,11 @@ while position < end_position:
     break
 if position == end_position:
   print("out the loop")
+
+monster_position = [5,11,23]
+
+for monster_position in monster_position:
+  print(monster_position)
+
+for i in range(0,5):
+  print("What")
