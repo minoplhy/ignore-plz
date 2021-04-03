@@ -152,3 +152,14 @@ actions.pop("h")
 print(actions)
 
 print("l" in actions)
+
+key = "u"
+
+if key == "r":
+  print("move right")
+elif key == "l":
+  print("move left")
+else:
+  print("Key not in code lol!")
+
+print("fin")
