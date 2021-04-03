@@ -46,3 +46,6 @@ is_over = score >= 10 and is_end ==True
 print(is_over); print(score)
 @ output = False
 @ output = 8
+
+for item in collection:
+  execute code using that item
