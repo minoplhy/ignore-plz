@@ -163,3 +163,16 @@ else:
   print("Key not in code lol!")
 
 print("fin")
+
+position = 0
+end_position = 200
+die_position = 192
+
+while position < end_position:
+  position += 0.5
+  print(position)
+  if position == die_position:
+    print("Die!")
+    break
+if position == end_position:
+  print("out the loop")
